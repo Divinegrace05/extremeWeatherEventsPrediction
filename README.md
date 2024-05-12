@@ -1,46 +1,42 @@
-# Extreme Weather Events Detection
+# Nairobi Extreme Weather Events Detection
 
-This project focuses on predicting extreme weather events using machine learning techniques. The repository contains code to load, clean, preprocess, and analyze weather data, as well as train and evaluate various machine learning models for predicting extreme weather events.
+This project focuses on predicting extreme weather events in Nairobi, Kenya, using machine learning techniques. The repository contains code to load, clean, preprocess, and analyze weather data specific to Nairobi, as well as train and evaluate various machine learning models for predicting extreme weather events.
 
 ## Overview
 
-Extreme weather events pose significant risks to communities and infrastructure, making accurate prediction crucial for disaster preparedness and response. In this project, we leverage historical weather data to train machine learning models capable of identifying extreme weather patterns.
+Extreme weather events can have significant impacts on Nairobi's residents, infrastructure, and economy. Accurate prediction of these events is crucial for disaster preparedness and response efforts. In this project, we leverage historical weather data from Nairobi to develop machine learning models capable of identifying extreme weather patterns unique to the region.
 
 ## Data
 
-The project utilizes historical weather data, specifically precipitation data, collected over a period of time. The data is preprocessed to handle missing values, convert data types, and prepare it for model training. Exploratory Data Analysis (EDA) techniques are employed to gain insights into the distribution and characteristics of extreme weather events.
+The project utilizes historical weather data sourced from the Kenya Meteorological Department. Due to data sharing restrictions, the raw data cannot be uploaded to GitHub. However, instructions are provided for acquiring and preprocessing the data locally. The data includes precipitation records spanning a specific timeframe, which serve as the basis for predicting extreme weather events.
 
 ## Extreme Events Definition
 
-Extreme events are defined based on predefined thresholds, such as percentiles, for each location. These thresholds help categorize weather events as either normal or extreme. The Extreme Events Definition section outlines the process of labeling extreme events and preparing the data for model training.
+Extreme events in Nairobi are defined based on predefined thresholds, such as percentiles, tailored to the local climate and geography. These thresholds help categorize weather events as either normal or extreme, providing valuable insights into the frequency and intensity of extreme weather phenomena in Nairobi.
 
 ## Model Training and Evaluation
 
-Several machine learning models, including Random Forest, Logistic Regression, Support Vector Machines (SVM), and K-Nearest Neighbors (KNN), are trained and evaluated for their predictive performance. Model evaluation metrics such as accuracy, precision, recall, and F1-score are used to assess the models' effectiveness in predicting extreme weather events.
+Several machine learning models, including Random Forest, Logistic Regression, Support Vector Machines (SVM), and K-Nearest Neighbors (KNN), are trained and evaluated for their predictive performance using Nairobi weather data. Model evaluation metrics such as accuracy, precision, recall, and F1-score are used to assess the models' effectiveness in predicting extreme weather events specific to Nairobi's climate.
 
 ## Conclusion
 
-The project concludes with insights into the performance of each model and recommendations for leveraging predictive modeling techniques to enhance resilience to extreme weather events. The findings highlight the potential of machine learning in informing decision-making processes and developing proactive measures to mitigate the impact of extreme weather.
+The project concludes with insights into the performance of each model and recommendations for leveraging predictive modeling techniques to enhance Nairobi's resilience to extreme weather events. By understanding and predicting these events more accurately, stakeholders can develop proactive measures and strategies to mitigate their impact on various sectors, including agriculture, infrastructure, and public safety.
 
 ## Usage
 
 To use the provided code:
 
-1. Clone the repository to your local machine.
-2. Install the required dependencies listed in the `requirements.txt` file.
-3. Run the Jupyter notebooks or Python scripts to execute various steps of the project pipeline.
-4. Explore the trained models and their performance metrics.
-5. Adapt the code and models for your specific use case or dataset.
+1. Acquire the Nairobi weather data from the Kenya Meteorological Department or another reliable source.
+2. Preprocess the data locally, adhering to data sharing regulations and privacy policies.
+3. Install the required dependencies listed in the `requirements.txt` file.
+4. Run the Jupyter notebooks or Python scripts provided in the repository to execute various steps of the project pipeline.
+5. Explore the trained models and their performance metrics specific to Nairobi's weather patterns.
 
 ## Future Work
 
 Future enhancements to the project could include:
 
-- Incorporating additional weather variables for more comprehensive analysis.
-- Fine-tuning model hyperparameters to improve predictive performance.
-- Deploying the trained models as part of an operational weather forecasting system.
-- Integrating real-time data streams for continuous model updating and monitoring.
-
-## Contributions
-
-Contributions to the project are welcome! If you have suggestions, feature requests, or bug reports, please feel free to open an issue or submit a pull request.
+- Incorporating additional weather variables specific to Nairobi for more comprehensive analysis.
+- Fine-tuning model hyperparameters to improve predictive performance in the local context.
+- Collaborating with local meteorological experts to refine model interpretations and recommendations.
+- Exploring the integration of real-time weather data streams for continuous model updating and monitoring.
